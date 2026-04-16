@@ -1,30 +1,23 @@
 # Contactless Handwash System
 
 ## Description
-This project is a contactless handwash system that automatically dispenses water or sanitizer when a hand is detected using a sensor.
-
-## Objective
-To improve hygiene and reduce physical contact using an automated system.
+This project is an automatic contactless handwash system that dispenses water or sanitizer when a hand is detected using an IR sensor and ESP microcontroller.
 
 ## Components Used
 - IR Sensor
-- Microcontroller (Arduino)
+- ESP32 / ESP8266
 - Water Pump / Motor
 - Relay Module
-- Power Supply
 
 ## Working
-- The IR sensor detects the presence of a hand.
-- When a hand is detected, the microcontroller activates the pump.
-- The pump dispenses water or sanitizer automatically.
-- After a fixed time, the pump turns OFF.
+The IR sensor detects the presence of a hand. When a hand is detected, the ESP microcontroller activates the pump through a relay to dispense liquid for a few seconds and then automatically turns it OFF.
 
 ## Features
 - Touch-free operation
-- Hygienic and safe
-- Low cost and easy to implement
+- Hygienic system
+- Automatic control using ESP
 
 ## Applications
 - Hospitals
-- Public washrooms
+- Public places
 - Smart hygiene systems
